@@ -24,7 +24,7 @@ const fs = global.nodemodule["fs-extra"];
      ];
      var callback = () => api.sendMessage({body:`🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰
 
-   𝐌𝐑..𝐂𝐇𝐔𝐙𝐀•◡•)
+   𝐌𝐑..𝐇𝐀𝐒𝐒𝐀𝐍•◡•)
 
 𝐀𝐠𝐞 : 22
 
@@ -33,7 +33,7 @@ const fs = global.nodemodule["fs-extra"];
 
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 https://www.facebook.com
 
-𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : +923243375326
+𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : 𝐇𝐀𝐒𝐒𝐀𝐍
 
  🚩🌍❤️🙂!❤🙂♣️`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
